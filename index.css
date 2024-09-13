@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url('./assets/Space.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-attachment: fixed;
+ 
+    
+}
+
+
+
+
+nav {
+
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+nav ul {
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+   
+    display: inline;
+    margin: 0 20px;
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    
+}
+
+ h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right:0px;
+}
+
+
+p {
+    margin: 20px auto;
+    width: 80%;
+    text-align: justify;
+    color: white;
+}
+
+
+ul {
+   
+    width: 80%;
+    margin: 20px auto;
+    margin-bottom: 100px
+}
+
+
+
+ul li {
+    color: #f4f4f4;
+  
+    padding: 15px;
+    border-radius: 5px;
+    list-style: none;
+
+}
+
+footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content .socials {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content .socials li {
+    margin: 0 10px;
+}
+
+.footer-content .socials li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-content .socials li a:hover {
+    color: #ddd;
+}
